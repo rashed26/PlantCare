@@ -1,0 +1,50 @@
+   <?php $i = 0;
+                    while ($row1 = mysqli_fetch_assoc($result_comment)) {
+                        $i++; ?>
+
+                        <div class="comment_show" id="your_comment">
+                            <h3><?php if ($i == 1) echo "Comment";   ?></h3>
+                            <div class="comment_show_left">
+                                <span><i class="fa fa-user" aria-hidden="true"></i></span>
+                            </div>
+                            <div class="comment_show_right">
+                                <strong><?php echo $row1['name']; ?></strong>
+                                <p>SAYS <?php echo $row1['date']; ?> AT <?php echo $row1['time']; ?></p>
+                                <span><?php echo $row1['comment']; ?></span>
+
+                                <!-- ----------for reply------------- -->
+
+                            </div>
+
+                        </div>
+
+                    <?php  } ?>
+
+                    <div class="user_comment">
+
+                        <h2>Add Comment</h2>
+
+                        <form method="post">
+
+                            <div class="form-group user_comment_name" id="comment">
+                                <input name="name" type="text" class="form-control" id="Last_Name" placeholder="Your Name">
+                            </div>
+
+                            <div class="form-group user_comment_email">
+                                <input name="email" type="email" class="form-control" id="Email" placeholder="Your Email">
+                            </div>
+
+                            <div class="form-group user_comment_msg">
+                                <textarea required name="comment" placeholder="Your Message" class="form-control" id="Your_Message" rows="5"></textarea>
+                            </div>
+
+                            <input name="id" type="hidden" class="form-control" id="Email" value="<?php echo $row['id']; ?>">
+
+                            <div class="form-group user_comment_button">
+                                <button name="btn"><span>Submit Comment</span></button>
+                            </div>
+
+                        </form>
+
+
+                    </div>

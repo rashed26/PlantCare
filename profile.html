@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <title>Profile</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel='stylesheet' type='text/css' href='profilepage.css'>
+</head>
+<body>
+    <div class="menu_bar">
+        <h1 class="project_name">Plant Disease Detection</h1>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="#">Medicine</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Profile</a></li>
+                <li><a href="about_us.html">About Us</a></li>
+    
+            </ul>
+        </nav>
+    </div>
+    <div style="display: flex; flex-wrap: wrap; margin-left:100px; margin-right: 100px; margin-top: 70px; margin-bottom: 30px;">
+        <div class="wrapper" style="width: 300px; height:auto; background-color: white; width: 50%; margin: 0 auto;">
+            <div class="profilePic">
+                <p><img id="output" src="images/humanIcon.jpeg" class="profileImage"/></p>
+             </div>
+            <p><input type="file"  accept="image/*" name="image" id="file"  onchange="loadFile(event)" style="display: none;"></p>
+         <p><label for="file" class="uploadButton"> EDIT PIC</label></p>
+      
+            
+            <div class="input-group"><input type="Text"  required>
+                <label for="">Full Name</label>
+            </div>
+            <div class="input-group"><input type="Text"  required>
+                <label for="">User Name</label>
+            </div>
+            <div class="input-group"><input type="email"  required>
+                <label for="">Email</label>
+            </div>
+            <div class="input-group"><input type="password"  required>
+                <label for="">Previous Password</label>
+            </div>
+            <div class="input-group"><input type="password"  required>
+                <label for="">New Password</label>
+            </div>
+            <div class="input-group"><input type="text"  required>
+                <label for="">Phone Number</label>
+            </div>
+            <div class="input-group">
+                
+                <input type="text" id="date" onfocus="(this.type='date')" onblur="if(!this.value)this.type='text'" value="" required>
+                <label for="">Date-of-birth </label>
+                
+            </div>
+
+            <button class="okBtn">OK</button>
+            <button class="okBtn" style="margin-left: -50px;">CANCEL</button>
+            </div>
+
+            
+    </div>
+    <script>
+        var loadFile = function(event) {
+            var image = document.getElementById('output');
+            image.src = URL.createObjectURL(event.target.files[0]);
+        };
+        </script>
+</body>
+</html>

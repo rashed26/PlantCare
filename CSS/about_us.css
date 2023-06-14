@@ -1,0 +1,506 @@
+/*---------Bismillahir Rahamanir Rahim---------*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body,
+p,
+span,
+a {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* -------header section-----*/
+
+
+
+/*--------Banner Section------*/
+
+.banner {
+    background: black;
+    height: 370px;
+}
+
+.banner_left {
+    text-align: center;
+    margin-top: 130px;
+    transition: 0.4s;
+}
+
+.banner_left:hover span {
+    color: #fff;
+}
+
+.banner_left h1 {
+    color: #fff;
+    font-family: "Verdana", Times, serif;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.banner_left p {
+    color: #fff;
+    font-family: "Verdana", Times, serif;
+    font-size: 15px;
+}
+
+.banner_left p span {
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 5px;
+    color: red;
+}
+
+
+
+/* --Back To Top Icon Section-- */
+
+.back_to_top {
+    position: fixed;
+    right: 20px;
+    bottom: 30px;
+    width: 40px;
+    height: 40px;
+    background: red;
+    z-index: 99;
+    transition: 0.4s;
+}
+
+.back_to_top:hover {
+    background: black;
+}
+
+.back_to_top:hover span {
+    color: red;
+}
+
+.back_to_top span {
+    color: white;
+    padding: 0px 11px;
+    font-size: 19px;
+    position: absolute;
+    top: 7px;
+}
+
+
+/* --------History Section-------*/
+
+.history_top {
+    text-align: center;
+    margin-top: 70px;
+}
+
+.history_top span {
+    color: red;
+    font-weight: 700;
+    letter-spacing: 5px;
+}
+
+.history_top h2 {
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 10px;
+    font-family: "Impact", Times, serif;
+    letter-spacing: 5px;
+}
+
+.history_bottom {
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+.history_bottom span {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.history_bottom p {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Constantia", Times, serif;
+}
+
+.history_bottom h4 {
+    display: inline-block;
+    margin-bottom: 20px;
+    font-size: 15px;
+    font-weight: 700;
+    color: red;
+}
+
+.history_bottom h3 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-family: "Verdana", Times, serif;
+}
+
+/*----- Box Section------*/
+.box {
+    border-top: 1px solid #ddd;
+}
+
+.box_section {
+    margin-top: 30px;
+    padding: 10px;
+
+}
+
+.box_section :hover {
+    background: #CD211D;
+    color: white;
+    transition: 0.4s;
+}
+
+.box_section h3 {
+    font-size: 25px;
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+
+.box_section p {
+    font-weight: 600;
+    line-height: 25px;
+}
+
+.box_section_inner {
+    margin: 50px 20px 50px 20px;
+    box-shadow: 0px 0px 60px 0px #e9e9e9;
+    padding: 40px;
+}
+
+.inner_middle {
+    padding-bottom: 13px !important;
+    background: #CD211D;
+    color: white;
+}
+
+.inner_last {}
+
+.inner_first {}
+
+/* --Typical_Project_Section-- */
+
+
+
+
+
+.Typical_Project {
+    margin-top: 50px;
+}
+
+.Typical_Project h3 {
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 5px;
+    margin-bottom: 30px;
+}
+
+.typical_project_inner {
+    padding: 15px;
+}
+
+.typical_project_inner ul {
+    display: inline-block;
+    list-style: none;
+}
+
+.typical_project_inner ul li {
+    padding-top: 50px;
+}
+
+.typical_project_inner_ul {
+    margin-right: 492px;
+}
+
+.typical_project_inner ul li span {
+    font-weight: 800;
+    color: #CD211D;
+    letter-spacing: 1px;
+}
+
+.typical_project_inner ul li::after {
+    content: "";
+    position: absolute;
+    left: 13px;
+    width: 98%;
+    height: 1px;
+    background: #ef8181;
+}
+
+.typical_project_inner_ul_1::before {
+    content: "";
+    position: absolute;
+}
+
+
+
+
+/* --Benefit_Section--*/
+
+.history_bottom h5 {
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+
+/* --Helping_Hand_Section--*/
+
+.helping_border {
+    border-top: 1px solid #ddd;
+    margin-top: -5px;
+    padding-top: 50px;
+}
+
+.helping_hand_section {
+    background-color: #f8f9fa !important;
+    margin-top: 70px;
+    padding: 100px;
+}
+
+
+.helping_hand {}
+
+.hand_box {
+    text-align: center;
+    padding: 25px 60px;
+    margin-bottom: 40px;
+    box-shadow: 0px 0px 60px 0px #e9e9e9;
+    background: white;
+    overflow: hidden;
+    transition: 0.4s;
+}
+
+.helping_hand_circle {
+    width: 100%;
+    height: 170px;
+    margin-top: -112px;
+    background: linear-gradient(45deg, black, transparent);
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.helping_hand_icon {
+    margin-top: -30px;
+}
+
+.helping_hand_icon span {
+    color: red;
+    font-size: 30px;
+    padding: 15px 30px;
+    border-radius: 50%;
+    background: white;
+    transition: 0.4s;
+}
+
+.helping_hand_icon span:hover {
+    background: red;
+    color: white;
+}
+
+.helping_hand_letter {
+    margin-top: 30px;
+}
+
+.helping_hand_letter h3 {
+    margin-bottom: 15px;
+    font-family: "Impact", Times, serif;
+    letter-spacing: 2px;
+}
+
+.helping_hand_letter p {
+    font-weight: 500;
+    color: #ff4040;
+    font-size: 17px;
+}
+
+.hand_box:hover {
+    transform: translateY(-30px);
+}
+
+
+/* --About_Video_Section-- */
+
+.Video_Section {
+    background-color: #f8f9fa !important;
+    border-top: 1px solid #ddd;
+    margin-top: -40px;
+}
+
+.Video_left {
+    text-align: center;
+    margin-top: 50px;
+    height: 245px;
+    padding: 0px 30px;
+}
+
+.Video_left h3 {
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Rubik', sans-serif;
+    color: #fff;
+    text-shadow: 1px 1px 5px rgb(0 0 0 / 50%);
+}
+
+.Video_right {}
+
+.Video_right_inner {
+    padding: 138px 90px;
+}
+
+.Video_right_inner a {
+    padding: 20px;
+    background: red;
+    border-radius: 50%;
+    color: white;
+    font-size: 37px;
+    position: relative;
+    z-index: 99;
+    transition: 0.4s;
+}
+
+.Video_right_inner a:hover {
+    background: white;
+    color: red;
+}
+
+.Video_right_inner a::before {
+    content: "";
+    position: absolute;
+    left: -10px;
+    top: -8px;
+    height: 100px;
+    width: 100px;
+    background: red;
+    z-index: -1;
+    border-radius: 50%;
+    animation: name 1s infinite;
+    animation-delay: 1s;
+    animation-duration: 1s;
+}
+
+.Video_right_inner a span {
+    font-size: 40px;
+}
+
+@keyframes name {
+    0% {
+        transform: scale(1);
+        background: red;
+        opacity: 0.8;
+    }
+
+    25% {
+        transform: scale(1.4);
+        background: red;
+        opacity: 0.6;
+    }
+
+    75% {
+        transform: scale(1.7);
+        background: red;
+        opacity: 0.3;
+    }
+
+    100% {
+        transform: scale(2);
+        background: red;
+        opacity: 0;
+    }
+
+}
+
+
+/*-----Donation_Section-----*/
+
+.donation {
+    border-top: 1px solid #e5dede;
+}
+
+.donation_left {}
+
+.donation_left_inner {
+    margin-top: 20px;
+}
+
+.donation_left_inner img {
+    height: 100%;
+    width: 100%;
+}
+
+.donation_right {
+    margin-top: 100px;
+}
+
+.donation_right_inner {}
+
+.donation_right_inner_span {
+    font-weight: 700;
+    letter-spacing: 5px;
+    color: red;
+}
+
+.donation_right_inner h2 {
+    font-size: 40px;
+    font-weight: 700;
+    font-family: "Impact", Times, serif;
+    letter-spacing: 4px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.donation_right_inner p {
+    font-weight: 500;
+    color: #ff4040;
+    font-size: 17px;
+    margin-bottom: 50px;
+}
+
+.donation_right_inner a {
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 14px 15px;
+    border-radius: 5px;
+    background: black;
+    transition: 0s;
+    position: relative;
+}
+
+.donation_right_inner a::after {
+    content: "DONATE";
+    position: absolute;
+    width: 0px;
+    height: 49px;
+    background: #CD211D;
+    left: 0;
+    top: 0;
+    z-index: 0;
+    border-radius: 5px;
+    transition: 0.4s;
+    color: white;
+    font-weight: 600;
+    font-size: 17px;
+    padding-top: 12px;
+    padding-left: 0px;
+    opacity: 0;
+    letter-spacing: 2px;
+}
+
+.donation_right_inner a span {
+    font-size: 17px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    color: white;
+}
+
+.donation_right_inner :hover::after {
+    width: 164px;
+    opacity: 1;
+    padding-left: 45px;
+}
+
+.donation_right_inner a span:hover {
+    opacity: 0;
+}

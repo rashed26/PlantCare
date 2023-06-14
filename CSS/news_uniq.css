@@ -1,0 +1,93 @@
+/*---------Bismillahir Rahamanir Rahim---------*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body,p,span,a{
+    font-family: 'Roboto', sans-serif;
+}
+
+/*--News Publicity--*/
+/* Comment Section */
+
+.user_comment{
+    box-shadow: 0px 0px 60px 0px #f3f3f3;
+    padding: 30px 45px;
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+.user_comment h2{
+    text-align: center;
+    font-family: "Constantia", Times, serif;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.user_comment form{}
+.user_comment_name input{
+    padding: 25px 25px;
+}
+.user_comment_email{}
+.user_comment_email input{
+    padding: 25px 25px;
+}
+.user_comment_msg{}
+.user_comment_button button{
+    padding: 10px 20px;
+    border-radius: 5px;
+    background: red;
+    transition: 0.4s;
+}
+.user_comment_button button:hover{
+    background-color: black;
+}
+.user_comment_button button span{
+    font-weight: 600;
+    color: white;
+}
+
+/* Show Comment Section */
+.Publicity_inner {
+    margin-bottom: 100px !important;
+}
+.comment_show{
+    margin-bottom: 50px;
+    box-shadow: 0px 0px 60px 0px #f3f3f3;
+    position: relative;
+    padding: 20px;
+}
+.comment_show h3{
+    font-family: "Constantia", Times, serif;
+    font-weight: 600;
+    margin-bottom: 30px;
+    position: absolute;
+    left: 0;
+    top: -50px;
+}
+.comment_show_left{
+    float: left;
+}
+.comment_show_left span{
+    font-size: 58px;
+    padding: 15px;
+    background: #c5c5c5;
+    color: white;
+    border-radius: 5px;
+}
+.comment_show_right{
+    margin-bottom: 15px;
+    margin-left: 100px;
+}
+.comment_show_right strong{
+    font-family: "Constantia", Times, serif;
+    font-size: 18px;
+}
+.comment_show_right p{
+    font-size: 14px;
+    font-family: "Comic Sans MS", Times, serif;
+    margin-top: 10px;
+}
+.comment_show_right span{
+    font-family: "Constantia", Times, serif;
+}
